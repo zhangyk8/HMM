@@ -8,11 +8,11 @@ Last edit: June 12, 2019
 
 import numpy as np
 import time
-from HMM_yikun import Data_preprocess, Backward, Forward, Baum_Welch, Viterbi, Predict
+from HMM import Data_preprocess, Backward, Forward, Baum_Welch, Viterbi, Predict
 
 # read the training and test set
-train = Data_preprocess("train534.dat")
-test = Data_preprocess("test1_534.dat")
+train = Data_preprocess("data/train534.dat")
+test = Data_preprocess("data/test1_534.dat")
 
 M = 4
 np.random.seed(301)

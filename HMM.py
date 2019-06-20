@@ -389,7 +389,7 @@ def Plot_Learning(Log_lik, fig_dir):
 
 def main():
     # Load the data
-    train = Data_preprocess("train534.dat")
+    train = Data_preprocess("data/train534.dat")
     # Uncomment it to utilize 5-fold cross-validation to select the number of states (Time-consuming)
     '''
     Log_lik, BIC_score, AIC_score = Cross_validation(train=train, M=list(range(3, 11)), seed=384) # 11h 23m 5s

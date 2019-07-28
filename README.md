@@ -1,5 +1,5 @@
 # HMM
-Python 3 Implementation of Hidden Markov Model
+Python 3 Implementation of the Hidden Markov Model
 
 ## Requirements
 - Python >= 3.6 (Earlier version could be applicable.)
